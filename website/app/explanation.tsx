@@ -97,10 +97,10 @@ export function Explanation() {
                     {data.map((card, index) => (
                         <div key={card.title} className="flex items-center gap-4">
                             <SpotlightCard
-                                className="custom-spotlight-card w-[360px] h-[400px] flex flex-col items-center justify-start gap-4 p-4"
+                                className="custom-spotlight-card w-[360px] h-[400px] 2xl:w-[560px] 2xl:h-[600px] flex flex-col items-center justify-start gap-4 p-4"
                                 spotlightColor="rgba(0, 229, 255, 0.2)"
                             >
-                                <div className="w-full h-[200px] flex items-center justify-center">
+                                <div className="w-full h-[200px] 2xl:h-[400px] flex items-center justify-center">
                                     <img
                                         className="rounded-2xl object-cover w-full h-full"
                                         src={card.image}

@@ -7,9 +7,9 @@ export function Hero() {
             <div className="hero-content text-center">
                 <div className="max-w-lg">
                     <h1
-                        className="font-title text-center text-[clamp(1.5rem,3.5vw,4rem)] leading-[1.1] [word-break:auto-phrase] xl:w-[115%] xl:text-start [:root[dir=rtl]_&]:leading-[1.35]"
+                        className="font-title text-center text-[clamp(1.5rem,3.5vw,4rem)] leading-[1.1] [word-break:auto-phrase]"
                     >
-                        <div className="font-thin [&:first-line]:font-black">
+                        <div className="font-black text-center">
                             Hide ESN job offers
                         </div>
                     </h1>
